@@ -1,4 +1,8 @@
 const Header = (props) => {
-  return <img src={props.logoN} alt="logo-netflix" />;
+  return (
+    <div className="header-div">
+      <img className="logo-img" src={props.logoN} alt="logo-netflix" />
+    </div>
+  );
 };
 export default Header;

@@ -1,4 +1,4 @@
 const Image = (props) => {
-  return <img src={props.images} alt="cover-movie" />;
+  return <img className="image" src={props.pic} alt="cover-movie" />;
 };
 export default Image;
